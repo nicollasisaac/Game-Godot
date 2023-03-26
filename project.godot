@@ -10,9 +10,13 @@ config_version=4
 
 [application]
 
-config/name="Everest I'm here"
-run/main_scene="res://Niveis/Levels/Level_01.tscn"
+config/name="SOBREVIVA"
+run/main_scene="res://Scenas/tela_inicial.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Global="*res://Global.gd"
 
 [display]
 
