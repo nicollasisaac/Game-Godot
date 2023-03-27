@@ -24,7 +24,7 @@ func _process(delta):
 	# Se o jogador atingir a posição x 1219.
 	if $Player.position.x >= 1219:
 		# Se a pontuação global for igual a 15.
-		if Global.pontos == 15:
+		if Global.pontos >= 15:
 			# Carrega a cena "win.tscn".
 			get_tree().change_scene("res://Scenas/win.tscn")
 		else:

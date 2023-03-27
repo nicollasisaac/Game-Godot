@@ -231,11 +231,11 @@ anims/jump = SubResource( 4 )
 anims/run = SubResource( 5 )
 
 [node name="instrucao" type="Button" parent="."]
-margin_left = 152.0
+margin_left = 143.0
 margin_top = 163.0
-margin_right = 232.0
+margin_right = 227.0
 margin_bottom = 183.0
-text = "Instruções"
+text = "Justificativa"
 
 [node name="Control" type="Control" parent="."]
 visible = false
@@ -251,10 +251,10 @@ margin_bottom = 141.0
 text = "O \"Sobreviva\" é um jogo de
 plataforma onde o jogador
 terá que coletar mantimentos
-e ir até o abrigo.
+e ir até o abrigo. O jogo aborda o tema \"extinção\"
 
 As teclas do jogo são: ASDW ou as 
-setinhas do teclado"
+setinhas do teclado e o espaço"
 align = 1
 valign = 1
 

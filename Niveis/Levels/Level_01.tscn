@@ -2699,6 +2699,17 @@ __meta__ = {
 position = Vector2( 536, 0 )
 shape = SubResource( 57 )
 
+[node name="fall-zone2" type="Area2D" parent="ParallaxBackground"]
+position = Vector2( 672, 191 )
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="collision" type="CollisionShape2D" parent="ParallaxBackground/fall-zone2"]
+position = Vector2( 536, 0 )
+shape = SubResource( 57 )
+
 [node name="fruits" type="Node2D" parent="."]
 
 [node name="apple" parent="fruits" instance=ExtResource( 7 )]
@@ -2762,3 +2773,4 @@ stream = ExtResource( 11 )
 autoplay = true
 
 [connection signal="body_entered" from="ParallaxBackground/fall-zone" to="ParallaxBackground/fall-zone" method="_on_fallzone_body_entered"]
+[connection signal="body_entered" from="ParallaxBackground/fall-zone2" to="ParallaxBackground/fall-zone2" method="_on_fallzone_body_entered"]
